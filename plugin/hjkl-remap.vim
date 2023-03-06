@@ -3,30 +3,30 @@ if exists("g:loaded_hjkl_remap") || &cp || v:version < 700
 endif
 let g:loaded_hjkl_remap = 1
 
-" Left: j
-noremap j <Left>
-"    " Down: k
-noremap k gj
-"    " Up: l
+" Up
 noremap l gk
-" Right: ;
+" Down
+noremap k gj
+" Left
+noremap j <Left>
+" Right
 noremap ; <Right>
 
-" Find next char for `f` or `t`: '
-noremap ' ;
-
-" To left window
-noremap <C-w>j <C-w>h
-noremap <C-w><C-j> <C-w>h
-
-" To down window
+" To window below current one
 noremap <C-w>k <C-w>j
 noremap <C-w><C-k> <C-w>j
 
-" To up window
+" To window above current one
 noremap <C-w>l <C-w>k
 noremap <C-w><C-l> <C-w>k
 
-" To right window
+" To window left current one
+noremap <C-w>j <C-w>h
+noremap <C-w><C-j> <C-w>h
+
+" To window right current one
 noremap <C-w>; <C-w>l
 noremap <C-w><C-semicolon> <C-w>l
+
+" Find next char for `f` or `t`: '
+noremap ' ;
