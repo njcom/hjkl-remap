@@ -13,6 +13,15 @@ Vim (and Neovim) plugin to remap <kbd>h</kbd>, <kbd>j</kbd>, <kbd>k</kbd>, <kbd>
 
 ## Installation
 
+Using [lazy.nvim](https://github.com/folke/lazy.nvim) in Neovim:
+```
+require('lazy').setup({
+  'njcom/hjkl-remap',
+})
+```
+
+---
+
 Using [Plug](https://github.com/junegunn/vim-plug/):
 ```
 Plug 'njcom/hjkl-remap'
