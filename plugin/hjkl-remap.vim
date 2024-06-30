@@ -4,13 +4,13 @@ endif
 let g:loaded_hjkl_remap = 1
 
 " Up
-noremap l gk
+noremap <silent> l gk
 " Down
-noremap k gj
+noremap <silent> k gj
 " Left
-noremap j <Left>
+noremap <silent> j <Left>
 " Right
-noremap ; <Right>
+noremap <silent> ; <Right>
 
 " To window below current one
 noremap <C-w>k <C-w>j

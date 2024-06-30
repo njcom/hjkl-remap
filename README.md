@@ -11,25 +11,24 @@ Vim (and Neovim) plugin to remap <kbd>h</kbd>, <kbd>j</kbd>, <kbd>k</kbd>, <kbd>
 * To window right of current one: <kbd>Ctrl + w ;</kbd>
 * Find next char for <kbd>f</kbd> or <kbd>t</kbd>: <kbd>'</kbd>
 
-## Installation
+## 📦 Installation
 
-Using [lazy.nvim](https://github.com/folke/lazy.nvim) in Neovim:
-```
-require('lazy').setup({
-  'njcom/hjkl-remap',
-})
-```
+Install the plugin with your preferred package manager:
 
----
+* Using [lazy.nvim](https://github.com/folke/lazy.nvim) in Neovim:
+    ```
+    require('lazy').setup({
+        'njcom/hjkl-remap',
+    })
+    ```
+* Using [Plug](https://github.com/junegunn/vim-plug/) in Neovim or Vim:
+    ```
+    Plug 'njcom/hjkl-remap'
+    ```
 
-Using [Plug](https://github.com/junegunn/vim-plug/):
-```
-Plug 'njcom/hjkl-remap'
-```
-then:
-```
-:PlugInstall
-```
+## ⚙️ Configuration
+
+No configuration is required.
 
 ## Usage
 
