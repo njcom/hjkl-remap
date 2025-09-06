@@ -10,14 +10,14 @@ I use it for years and it work pretty good. You will not return back!
 
 It changes default Vim's keybindings to the following:
 1. One char motion:
-    1. Up: <kbd>l</kbd>
+    1. Left: <kbd>j</kbd>
     2. Down: <kbd>k</kbd>
-    3. Left: <kbd>j</kbd>
+    3. Up: <kbd>l</kbd>
     4. Right: <kbd>;</kbd>
 2. Motion between windows:
-    1. To window above (up) current one: <kbd>Ctrl + w l</kbd>
+    1. To left window: <kbd>Ctrl + w j</kbd>
     2. To window below (down) current one: <kbd>Ctrl + w k</kbd>
-    3. To window left of current one: <kbd>Ctrl + w j</kbd>
+    3. To window above (up) current one: <kbd>Ctrl + w l</kbd>
     4. To window right of current one: <kbd>Ctrl + w ;</kbd>
 3. Find next char for the  <kbd>f</kbd> or <kbd>t</kbd>: <kbd>'</kbd>.
 
