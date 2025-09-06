@@ -1,4 +1,4 @@
-# vim-hjkl
+# Vim (Neovim) hjkl-remap plugin
 
 Vim and Neovim plugin to remap motion keys <kbd>hjkl</kbd> to more natural <kbd>jkl;</kbd>, because this is where you fingers placed naturally for blind fast typing.
 
